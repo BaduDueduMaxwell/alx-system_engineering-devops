@@ -1,0 +1,14 @@
+total 18
+drwxr-xr-x 1 duedu 197609  0 Apr  4 22:52 .
+drwxr-xr-x 1 duedu 197609  0 Apr  4 15:32 ..
+-rwxr-xr-x 1 duedu 197609 32 Apr  4 16:16 0-hello_world
+-rwxr-xr-x 1 duedu 197609 28 Apr  4 21:22 1-confused_smiley
+-rwxr-xr-x 1 duedu 197609 28 Apr  4 21:29 2-hellofile
+-rwxr-xr-x 1 duedu 197609 39 Apr  4 21:40 3-twofiles
+-rwxr-xr-x 1 duedu 197609 35 Apr  4 21:52 4-lastlines
+-rwxr-xr-x 1 duedu 197609 35 Apr  4 22:04 5-firstlines
+-rwxr-xr-x 1 duedu 197609 40 Apr  4 22:17 6-third_line
+-rwxr-xr-x 1 duedu 197609 86 Apr  4 22:48 7-file
+-rwxr-xr-x 1 duedu 197609 36 Apr  4 22:48 8-cwd_state
+-rw-r--r-- 1 duedu 197609 47 Apr  4 15:53 README.md
+-rw-r--r-- 1 duedu 197609  0 Apr  4 22:52 ls_cwd_content
