@@ -1,2 +1,3 @@
 #!/bin/bash
 printf '%x\n' $DECIMAL
+'A-Za-z' 'N-Za-Mn-za-m'
