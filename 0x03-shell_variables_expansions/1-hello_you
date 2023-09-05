@@ -1,3 +1,2 @@
 #!/bin/bash
-user="Maxwell"
-printf"hello %s" "$user"
+printf"hello user"
