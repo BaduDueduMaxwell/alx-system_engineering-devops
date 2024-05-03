@@ -1,22 +1,24 @@
 #!/usr/bin/env bash
-#Bad luck from China, Japan and Italy
+# Bad luck from China, Japan and Italy
 
-luck=1;
-while [ "$luck" -le 20 ]; do
-    case "$luck" in
-        4)
-            echo -e "$luck \nbad luck from China"
-            ;;
-        9)
-            echo -e "$luck \nbad luck from Japan"
-            ;;
-        17)
-            echo -e "$luck \nbad luck from Italy"
-            ;;
-        *)
-            echo "$luck"
-            ;;
-
+counter=1
+while [[ $counter -le 20 ]]; do
+    case $counter in
+	4)
+	    echo "$counter"
+	    echo "bad luck from China"
+	    ;;
+	9)
+	    echo "$counter"
+	    echo "bad luck from Japan"
+	    ;;
+	17)
+	    echo "$counter"
+	    echo "bad luck from Italy"
+	    ;;
+	*)
+	    echo "$counter"
+	    ;;
     esac
-    luck=$((luck +1));
+    ((counter++))
 done
