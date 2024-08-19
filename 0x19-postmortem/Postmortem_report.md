@@ -1,5 +1,7 @@
 ### Postmortem: Web Application Outage Due to Database Misconfiguration
 
+![Web Application Outage](photo.webp)
+
 #### **Issue Summary**
 **Duration:** The outage lasted for approximately 2 hours, from 3:00 PM to 5:00 PM GMT on August 18, 2024.
 
