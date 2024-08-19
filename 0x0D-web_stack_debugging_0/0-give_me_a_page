@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Fix my server with these magic line(s)
+
+# Start the Apache service
+service apache2 start
