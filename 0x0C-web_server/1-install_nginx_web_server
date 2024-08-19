@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script installs Nginx, configures it to listen on port 80, and serves
+# "Hello World!" page
+
+# Update package lists
+apt-get update
+
+# Install Nginx
+apt-get install -y nginx
+
+# Create a custom index.html page with "Hello World!"
+echo "Hello World!" > /var/www/html/index.html
+
+# Ensure Nginx listens on port 80 (default configuration)
+# We are using the default configuration which already listens on port 80
+sudo ufw allow 'Nginx HTTP'
+
+# Restart Nginx to apply the changes
+service nginx restart
